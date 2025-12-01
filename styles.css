@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("./fonts/OpenSans-VariableFont_wdth,wght.ttf");
+}
+
+@font-face {
+  font-family: "Neucha";
+  src: url("./fonts/Neucha-Regular.ttf");
+}
+
+:root {
+    --color-white: #fff;
+    --color-white-accent: #d7ccc0;
+    --color-white-ligth: #f5f4f0;
+    --color-main: #fe8a02;
+    --color-main-dark: #42413c;
+    --color-dark: #2a2626;
+    --color-dark-accent: #908d8b;
+    --color-brown: #b09a81;
+    --color-blue: #1085c5;
+
+    --container-width: 1110px;
+    --container-margins: 100px auto;
+}
+
+* {
+    font-family: "Open Sans";
+    color: var(--color-dark);
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+h1, h2, h3 {
+    font-family: "Neucha";
+    line-height: 1.2em;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+
+section {
+    margin: var(--container-margins);
+    max-width: var(--container-width);
+    text-align: center;
+}
