@@ -189,8 +189,8 @@ h4 {
 
 #preview-image {
   background-color: var(--color-white);
-  padding-top: 43px;
-  border-bottom: 150px solid var(--color-main-dark);
+  padding-top: 10px;
+  border-bottom: 160px solid var(--color-main-dark);
 }
 
 .preview-header {
