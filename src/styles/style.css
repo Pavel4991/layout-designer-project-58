@@ -37,7 +37,7 @@ body {
   transition-duration: 0.2ms;
 }
 
-p {
+.columns-2 p {
   margin-block: 0;
 }
 
