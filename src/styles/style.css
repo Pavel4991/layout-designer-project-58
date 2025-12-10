@@ -52,10 +52,12 @@ h1, h2, h3, .decorated {
 h1 {
   font-size: 72px;
   margin-bottom: 185px;
+  color: var(--color-orange);
 }
 
 h2 {
   font-size: 60px;
+  color: var(--color-orange);
 }
 
 h3 {
@@ -95,6 +97,14 @@ h4 {
   column-count: 2;
   column-gap: 30px;
   text-align: start;
+}
+
+.color-white {
+  color: var(--color-white);
+}
+
+.color-dark {
+  color: var(--color-dark);
 }
 
 .accented {
@@ -174,6 +184,7 @@ h4 {
 
 #preview-image {
   background-color: var(--color-white);
+  border-bottom: 100px solid var(--color-main-dark);
 }
 
 .preview-header {
@@ -187,11 +198,6 @@ h4 {
 .link-image {
   margin-top: 30px;
   margin-bottom: -100px;
-}
-
-
-#navigation {
-  padding-top: 100px;
 }
 
 .nav {
