@@ -67,6 +67,7 @@ h3 {
 h4 {
   column-span: all;
   padding-inline: 10px;
+  margin-top: 2px;
   margin-bottom: 20px;
   text-align: left;
   font-size: 14px;
@@ -184,6 +185,7 @@ h4 {
 
 #preview-image {
   background-color: var(--color-white);
+  padding-top: 76px;
   border-bottom: 100px solid var(--color-main-dark);
 }
 
