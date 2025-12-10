@@ -275,7 +275,8 @@ h4 {
 }
 
 #errors-in-planning {
-  padding-block: 3px;
+  padding-top: 2px;
+  padding-bottom: 3px;
 }
 
 footer {
@@ -290,7 +291,7 @@ footer {
   justify-content: space-between;
   max-width: 1000px;
   margin-inline: auto;
-  margin-bottom: 70px;
+  margin-bottom: 69px;
   color: var(--color-white);
   background-color: var(--color-main-dark);
   padding-inline: 55px;
