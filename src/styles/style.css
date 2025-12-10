@@ -205,6 +205,13 @@ h4 {
   margin-bottom: -110px;
 }
 
+.nav-container {
+  box-sizing: border-box;
+  margin-inline: auto;
+  padding-bottom: var(--container-paddings-block);
+  max-width: var(--container-width);
+}
+
 .nav {
   display: flex;
   flex-wrap: wrap;
