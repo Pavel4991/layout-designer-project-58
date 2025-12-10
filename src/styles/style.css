@@ -189,8 +189,8 @@ h4 {
 
 #preview-image {
   background-color: var(--color-white);
-  padding-top: 48px;
-  border-bottom: 144px solid var(--color-main-dark);
+  padding-top: 43px;
+  border-bottom: 150px solid var(--color-main-dark);
 }
 
 .preview-header {
@@ -203,7 +203,7 @@ h4 {
 
 .link-image {
   margin-top: 30px;
-  margin-bottom: -100px;
+  margin-bottom: -110px;
 }
 
 .nav {
