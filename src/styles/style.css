@@ -4,7 +4,7 @@
 }
 
 @font-face {
-  font-family: "Neucha";
+  font-family: Neucha;
   src: url("./fonts/Neucha-Regular.ttf");
 }
 
@@ -24,7 +24,6 @@ body,
   --color-dark-accent: #908d8b;
   --color-brown: #b09a81;
   --color-blue: #1085c5;
-
   --container-width: 1110px;
   --container-paddings-block: 100px;
 }
@@ -45,7 +44,7 @@ p {
 h1, h2, h3, .decorated {
   margin-block: 0;
   text-align: left;
-  font-family: "Neucha", sans-serif;
+  font-family: Neucha, sans-serif;
   font-weight: 300;
   line-height: 1.2em;
 }
@@ -134,7 +133,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(./images/background.png);
+  background-image: url('./images/background.png');
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
@@ -149,7 +148,7 @@ h4 {
 }
 
 .shadowed-border {
-    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+    filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
 }
 
 .header-inner {
@@ -178,6 +177,7 @@ h4 {
 #preview-image {
   background-color: var(--color-white);
 }
+
 .preview-header {
   margin-bottom: 30px;
 }
@@ -199,8 +199,7 @@ h4 {
 .nav {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 30px;
-  row-gap: 20px;
+  gap: 20px 30px;
 }
 
 .nav-title {
@@ -218,6 +217,17 @@ h4 {
   text-decoration: none;
 }
 
+.card-title {
+  margin-bottom: 16px;
+}
+
+.card-number {
+  margin-bottom: 40px;
+  color: var(--color-main-dark);
+  font-size: 64px;
+  line-height: 1;
+}
+
 .nav-card:hover {
   color: var(--color-white);
   background-color: var(--color-orange);
@@ -229,16 +239,6 @@ h4 {
 
 .nav-card:hover .card-title{
   color: var(--color-white);
-}
-
-.card-title {
-  margin-bottom: 16px;
-}
-.card-number {
-  margin-bottom: 40px;
-  color: var(--color-main-dark);
-  font-size: 64px;
-  line-height: 1;
 }
 
 .logo {
@@ -314,7 +314,7 @@ footer {
 }
 
 .form-button::before {
-  content: url(./images/send.svg);
+  content: url('./images/send.svg');
   display: block;
   position: absolute;
   top: 50%;
