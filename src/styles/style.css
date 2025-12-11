@@ -35,7 +35,6 @@ body {
   color: var(--color-dark);
   background-color: var(--color-white-ligth);
   transition-duration: 0.2ms;
-  overflow-x: hidden;
 }
 
 .columns-2 p {
@@ -170,8 +169,10 @@ h4 {
 .header-image {
   position: absolute;
   height: 525px;
+  width: 918px;
   top: 55px;
-  right: -270px;
+  right: -105px;
+  overflow-x: clip;
   z-index: -1;
 }
 
