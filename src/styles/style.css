@@ -189,8 +189,7 @@ h4 {
 
 #preview-image {
   background-color: var(--color-white);
-  border-bottom: 1px solid var(--color-main-dark);
-  box-shadow: 0 200px var(--color-main-dark);
+  border-bottom: 201px solid var(--color-main-dark);
 }
 
 .preview-header {
@@ -207,14 +206,7 @@ h4 {
 }
 
 #navigation {
-  margin-top: 200px;
-}
-
-.nav-container {
-  box-sizing: border-box;
-  margin-inline: auto;
-  padding-bottom: var(--container-paddings-block);
-  max-width: var(--container-width);
+  margin-top: -100px;
 }
 
 .nav {
@@ -284,8 +276,6 @@ h4 {
   padding-top: 30px;
   font-size: 34px;
 }
-
-
 
 #errors-in-planning {
   padding-top: 2px;
