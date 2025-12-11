@@ -191,7 +191,7 @@ h4 {
 
 #preview-image {
   background-color: var(--color-white);
-  border-bottom: 201px solid var(--color-main-dark);
+  border-bottom: 201.2px solid var(--color-main-dark);
 }
 
 .preview-header {
@@ -215,7 +215,7 @@ h4 {
   box-sizing: border-box;
   margin-inline: auto;
   padding-top: 200px;
-  padding-bottom: 85px;
+  padding-bottom: 85.2px;
   max-width: var(--container-width);
 }
 
