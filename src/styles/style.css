@@ -232,7 +232,7 @@ h4 {
 .nav-card {
   display: flex;
   flex-direction: column;
-  padding: 24px 24px 30px;
+  padding: 24px 24px 26px;
   max-width: 302px;
   text-align: start;
   text-decoration: none;
