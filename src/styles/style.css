@@ -8,11 +8,6 @@
   src: url("../fonts/Neucha-Regular.ttf");
 }
 
-body,
-:where(blockquote, figure, fieldset):where([class]) {
-  margin: 0;
-}
-
 :root {
   --color-white: #fff;
   --color-white-accent: #d7ccc0;
